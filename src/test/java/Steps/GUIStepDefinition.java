@@ -64,7 +64,7 @@ public class GUIStepDefinition extends Lib {
 		WebElement elem = Findelement(driver, readproperties(xpath));
 		Select slct = new Select(elem);
 		slct.selectByVisibleText(value);
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 	}
 
 	@After
