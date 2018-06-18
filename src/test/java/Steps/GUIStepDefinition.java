@@ -41,7 +41,7 @@ public class GUIStepDefinition extends Lib {
 	public void I_click_on(String xpath) throws IOException, InterruptedException {
 		WebElement elem = Findelement(driver, readproperties(xpath));
 		elem.click();
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		;
 	}
 
